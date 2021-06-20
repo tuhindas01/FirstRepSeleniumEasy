@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.seleniumeasy.qa.testcases.CheckBoxDemoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="navigateToRAdioButtonDemoTest"/>
+          <include name="selectSingleCheckBoxTest"/>
+          <include name="tearDown"/>
+          <include name="selectAllCheckBoxTest"/>
+        </methods>
+      </class> <!-- com.seleniumeasy.qa.testcases.CheckBoxDemoTest -->
+      <class name="com.seleniumeasy.qa.testcases.HomePageTest">
+        <methods>
+          <include name="SeleniumEasyLogoTest"/>
+          <include name="setUp"/>
+          <include name="navigateSimpleFormToHome"/>
+          <include name="stratTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.seleniumeasy.qa.testcases.HomePageTest -->
+      <class name="com.seleniumeasy.qa.testcases.SimpleFormDemoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="navigateToCheckBoxDemoTest"/>
+          <include name="validateSimpleFormDemoTitleTest"/>
+          <include name="tearDown"/>
+          <include name="msgTest"/>
+          <include name="sumTest"/>
+        </methods>
+      </class> <!-- com.seleniumeasy.qa.testcases.SimpleFormDemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

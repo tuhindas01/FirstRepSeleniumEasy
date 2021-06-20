@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Easy Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Selenium Easy Test(failed)">
+    <classes>
+      <class name="com.seleniumeasy.qa.testcases.SimpleFormDemoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="navigateToCheckBoxDemoTest"/>
+          <include name="validateSimpleFormDemoTitleTest"/>
+          <include name="tearDown"/>
+          <include name="msgTest"/>
+          <include name="sumTest"/>
+        </methods>
+      </class> <!-- com.seleniumeasy.qa.testcases.SimpleFormDemoTest -->
+      <class name="com.seleniumeasy.qa.testcases.CheckBoxDemoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="selectSingleCheckBoxTest"/>
+          <include name="tearDown"/>
+          <include name="selectAllCheckBoxTest"/>
+        </methods>
+      </class> <!-- com.seleniumeasy.qa.testcases.CheckBoxDemoTest -->
+    </classes>
+  </test> <!-- Selenium Easy Test(failed) -->
+</suite> <!-- Failed suite [Selenium Easy Automation Suite] -->

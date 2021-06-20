@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Easy Automation Suite" >
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Selenium Easy Test">
+
+		<classes>	
+			<class name="com.seleniumeasy.qa.testcases.HomePageTest" />
+			<class name="com.seleniumeasy.qa.testcases.SimpleFormDemoTest" />
+			<class name="com.seleniumeasy.qa.testcases.CheckBoxDemoTest" />		
+		</classes>
+		
+	</test>
+	
+</suite>
+			
