@@ -13,7 +13,7 @@ import com.seleniumeasy.qa.util.TestUtil;
 
 public class HomePage extends TestBase{
 	
-	//Page Factory - OR
+	//Page Factory - OR (Object Repository)
 	@FindBy(xpath="//*[@id=\"btn_basic_example\"]")
 	WebElement startButton;
 	
